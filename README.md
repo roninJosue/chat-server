@@ -25,6 +25,14 @@ $ npm install
 $ npm run dev
 ```
 
+Yo need to create a **.env** file in the folder root with
+```
+HARPERDB_URL=URL
+HARPERDB_PW=PASSWORD
+```
+
+This is necessary because the API connect to [HarperDB](https://harperdb.io/) so, you need to create an account in it
+
 ## Sources
 This chat API was made following this awesome [tutorial](https://www.freecodecamp.org/news/build-a-realtime-chat-app-with-react-express-socketio-and-harperdb/#what-is-socket-io) 
 by [Danny Adams](https://www.freecodecamp.org/news/author/danny-adams/)
